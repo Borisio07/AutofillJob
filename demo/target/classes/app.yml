@@ -1,0 +1,44 @@
+myapp:
+  database:
+    table:
+      name: mytable
+      columns:
+        - name: id
+          type: varchar(255) 
+        - name: tableId 
+          type: bigint 
+        - name: indicatorShortTitle
+          type: varchar(48)
+        - name: indicatorVersion  
+          type: int
+        - name: row
+          type: int 
+        - name: surveyId 
+          type: bigint    
+        - name: lastSynced  
+          type: datetime 
+        - name: statementTitle 
+          type: longtext 
+        - name: timeRefFrom 
+          type: datetime 
+        - name: timeRefTo  
+          type: datetime 
+        - name: runIndex 
+          type: int 
+        - name: Level-1 
+          type: varchar(255)
+        - name: Level-2 
+          type: varchar(255) 
+        - name: Level-3 
+          type: varchar(255) 
+        - name: Level-4 
+          type: varchar(255)
+        - name: source  
+          type: varchar(255)
+        - name: consumption   
+          type: double
+        - name: consumption[UNIT]  
+          type: varchar(64)
+            
+          
+
